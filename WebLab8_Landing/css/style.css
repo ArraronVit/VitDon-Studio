@@ -1,0 +1,120 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+.first{
+    background-image: url("../img/Космос.png");
+    height: 100vh;
+    background-size: cover;
+}
+.nav-item{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px #FFFDFD solid;
+}
+.about-bold{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.back-foot{
+    background-image: url("../img/benjamin-voros-phIFdC6lA4E-unsplash 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.7) inset;
+}
+.back-form{
+    border-radius: 15px;
+    background-color: rgba(255, 252, 252, 0.7);
+    min-height: 510px;
+}
+.back-main{
+    background-image: url("../img/istockphoto-1061227500-170667a 1.png");
+    background-size: 100%;
+}
+.about{
+    font-size: 18px;
+}
+.active{
+    border-bottom: 1px solid #B500FF;
+    color: #B500FF;
+}
+.seсond{
+    background-color:black;
+}
+.port{
+    margin-top: 50px;
+}
+.center-vertical{
+    transform: translate(0%, -50%);
+    top: 50%;
+    position: relative;
+}
+.offer{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+}
+.center{
+    transform: translate(-50%, -50%);
+    top: -50%;
+    left: 90%;
+    position: relative;
+}
+.photo{
+    border-radius: 50%;
+    border: 2px rgba(103, 0, 146, 1) solid;
+}
+.adv{
+    font-size: 20px;
+}
+.link-photo{
+    font-size:22px;
+    text-transform: none;
+    color: rgba(103, 0, 146, 1);
+    text-decoration: none;
+}
+.order{
+    border: 2px #B500FF solid;
+    border-radius: 10px;
+    font-size: 28px;
+    text-transform: none;
+}
+.back-white{
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    min-height: 450px;
+}
+.brand{
+    margin-top: 0px;
+    height: 400px;
+    font-size: 35px;
+    text-align: center;
+}
+.order-button{
+    background-color: #FFFFFF;
+    font-size: 20px;
+    border: 3px rgba(103, 0, 146, 1) solid;
+    text-transform: none;
+    border-radius: 15px;
+    color: rgba(103, 0, 146, 1);
+}
+.order-button:hover,.active-btn:hover{
+    background-color: rgba(103, 0, 146, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: #B500FF;
+}
